@@ -3,7 +3,7 @@ function init(){
 	document.getElementById("entrybutton").addEventListener("click", myAlert);
 	
 	fucntion myAlert(){
-				var input = document.getElementById("entryinput").value
+				var inout = document.getElementById("entryinput").value
 				alert("Yaqub Farook: " + input); 
 	
 	

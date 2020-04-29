@@ -1,9 +1,12 @@
+
+
 function init(){
 
 	document.getElementById("entrybutton").addEventListener("click", myAlert);
 	
-	fucntion myAlert(){
-				var inout = document.getElementById("entryinput").value
+	function myAlert(){
+				var input = document.getElementById("entryinput").value
+				document.getElementById("textoutput")["innerHTML"]=input;
 				alert("Yaqub Farook: " + input); 
 	
 	
